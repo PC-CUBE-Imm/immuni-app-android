@@ -593,4 +593,9 @@ Operating system: iOS 13.5.1; Model: iPhone XS; Exposure notifications: Active; 
     <string name="green_certificate_exemption_title">Digital certification of COVID-19 vaccination exemption</string>
     <string name="green_certificate_certificate_issuer_exemption">Soggetto che ha rilasciato la certificazione digitale di esenzione</string>
     <string name="green_certificate_validity_vaccine_booster">Certification valid for 180 days (6 months) from the date of the last administration, subject to regulatory changes</string>
+    <string name="green_pass_no_certificate_preferite_available">Nessun certificato aggiunto ai preferiti</string>
+    <string name="green_pass_add_certificate_preferite"><![CDATA[Apri un certificato e sotto le informazioni troverai la voce "<b>Aggiungi ai preferiti</b>"]]></string>
+    <string name="tabbar_title_favourite_dgc">Preferiti</string>
+    <string name="green_certificate_button_add_favourite">Aggiungi ai preferiti</string>
+    <string name="green_certificate_button_remove_favourite">Rimuovi dai preferiti</string>
 </resources>

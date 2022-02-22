@@ -1,0 +1,29 @@
+<com.google.android.material.card.MaterialCardView
+xmlns:android="http://schemas.android.com/apk/res/android"
+style="@style/SettingsMenuCard"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<LinearLayout style="@style/FavouriteDGCLayout">
+
+    <LinearLayout
+        style="@style/FavouriteDGCItemWithIconLayout">
+        <TextView
+            android:id="@+id/dateEvent"
+            style="@style/FavouriteDGCItem.WithIcon"
+            android:text="02/01/2022" />
+
+        <TextView
+            android:id="@+id/nameForename"
+            style="@style/FavouriteDGCItem.WithIcon.Bold"
+            android:text="Mario Rossi" />
+        <TextView
+            android:id="@+id/eventType"
+            style="@style/FavouriteDGCItem.WithIcon"
+            android:text="Vaccinazione" />
+
+    </LinearLayout>
+    <include layout="@layout/settings_menu_item_arrow" />
+
+</LinearLayout>
+</com.google.android.material.card.MaterialCardView>
